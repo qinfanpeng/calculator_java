@@ -78,5 +78,4 @@ public class CalculatorTest{
     public void should_return_2_when_1_add_4_substract_2_multiply_2_divide_3() throws Exception {
         assertThat(Double.compare(calculator.calculate("1+4-2*2/3"), 2.0), is(0));
     }
-
 }
